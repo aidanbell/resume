@@ -55,11 +55,25 @@ div {
   background: linear-gradient(129deg, #FFF 40%, #769689 40%);
 }
 
+.icon {
+  height: 14px;
+  width: 14px;
+  vertical-align: text-bottom;
+  margin: 1px;
+  margin-left: 4px;
+
+}
+
 .contact > ul {
   list-style-type: none;
   padding-right: 10px;
   text-align: right;
   color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .about {
@@ -71,7 +85,7 @@ div {
 
 .skills {
   grid-column: 1 / 3;
-  grid-row: 3 / 4;
+  /* grid-row: 3 / 4; */
   padding: 5px;
 }
 
@@ -100,6 +114,7 @@ div {
 .date {
   display: inline-block;
   margin-left: auto;
+  font-style: italic;
 }
 
 .location {
@@ -116,10 +131,6 @@ div {
   padding-right: 5px;
 }
 
-#work-title-mra {
-  margin-bottom: 0;
-}
-
 .points > ul {
   list-style-type: circle;
   margin-top: 0;
@@ -132,6 +143,11 @@ div {
 
 h4 {
   display: inline-block;
+  margin-top: 0;
+}
+
+h2  {
+  margin: 0;
 }
 
 .bonus-circle {
